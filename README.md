@@ -5,11 +5,13 @@ A Sinatra app which will accept an image url, width and height, returning a png 
 
 Dependancies
 =============
+<ul>
+<li>Sinatra</li>
 
-Sinatra
-ImageMagick
-RMagick
+<li>ImageMagick</li>
 
+<li>RMagick</li>
+</ul>
 To Run
 =============
 

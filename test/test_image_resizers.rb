@@ -90,4 +90,10 @@ class ImageResizerTest < Test::Unit::TestCase
     assert last_response.body.include? "ERROR"
   end
 
+  def test_404
+    get '/I/Dont/Exist'
+    assert_equal last_response.status, 404
+    assert last_response.body.include? "Sorry"
+  end
+
 end

@@ -3,7 +3,12 @@ Image Resizer
 
 A Sinatra app which will accept an image url, width and height, returning a png of the image resized to those dimensions.
 
-Dependancies
+Screenshot
+=============
+
+![Alt text](Screenshot.jpg "Example Screenshot")
+
+Dependencies
 =============
 <ul>
 <li>Sinatra</li>

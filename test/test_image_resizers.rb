@@ -3,12 +3,12 @@
 ENV['RACK_ENV'] = 'test'
 
 TEST_ROOT = File.expand_path(File.dirname(__FILE__))
-#Testing Dependancies
+#Testing Dependencies
 require "rubygems"
 require "test/unit"
 require "rack/test"
 
-#App dependancies
+#App dependencies
 require 'sinatra'
 require "open-uri"
 require "RMagick"
